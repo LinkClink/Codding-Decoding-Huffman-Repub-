@@ -8,3 +8,17 @@ My add:
 - Rebuild algorithm decode [with .txt]
 
 Program -- Coding Huffman (realisation).jar
+
+Example log:
+
+input:
+- It is test code-decode functions.
+
+output:
+- 0111010001011001110010100101111010001000000111011011111111101101000001110110101011110011110110000100110000101101110111110
+- and chars table
+
+
+
+# All log work program: (text: It is test code-decode functions.)
+# FILE example_log.txt
