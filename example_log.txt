@@ -1,0 +1,67 @@
+Text to Encode: It is test code-decode functions.
+-- intervals --
+' ' : 0.12121212121212122
+'-' : 0.030303030303030304
+'.' : 0.030303030303030304
+'I' : 0.030303030303030304
+'c' : 0.09090909090909091
+'d' : 0.09090909090909091
+'e' : 0.12121212121212122
+'f' : 0.030303030303030304
+'i' : 0.06060606060606061
+'n' : 0.06060606060606061
+'o' : 0.09090909090909091
+'s' : 0.09090909090909091
+'t' : 0.12121212121212122
+'u' : 0.030303030303030304
+--- Printing Codes ---
+' ' : 010
+'-' : 111111
+'.' : 111110
+'I' : 01110
+'c' : 000
+'d' : 1101
+'e' : 101
+'f' : 11110
+'i' : 1100
+'n' : 0110
+'o' : 001
+'s' : 1110
+'t' : 100
+'u' : 01111
+-- Encoding --
+Encoded Text: 0111010001011001110010100101111010001000000111011011111111101101000001110110101011110011110110000100110000101101110111110
+Hash: 01110 Char: I
+Hash: 100 Char: t
+Hash: 010 Char:  
+Hash: 1100 Char: i
+Hash: 1110 Char: s
+Hash: 010 Char:  
+Hash: 100 Char: t
+Hash: 101 Char: e
+Hash: 1110 Char: s
+Hash: 100 Char: t
+Hash: 010 Char:  
+Hash: 000 Char: c
+Hash: 001 Char: o
+Hash: 1101 Char: d
+Hash: 101 Char: e
+Hash: 111111 Char: -
+Hash: 1101 Char: d
+Hash: 101 Char: e
+Hash: 000 Char: c
+Hash: 001 Char: o
+Hash: 1101 Char: d
+Hash: 101 Char: e
+Hash: 010 Char:  
+Hash: 11110 Char: f
+Hash: 01111 Char: u
+Hash: 0110 Char: n
+Hash: 000 Char: c
+Hash: 100 Char: t
+Hash: 1100 Char: i
+Hash: 001 Char: o
+Hash: 0110 Char: n
+Hash: 1110 Char: s
+Hash: 111110 Char: .
+Decoded Text: It is test code-decode functions.
